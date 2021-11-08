@@ -47,14 +47,14 @@ class Email extends BaseConfig
      *
      * @var string
      */
-    public $SMTPHost = 'smtp.gmail.com';
+    public $SMTPHost;
 
     /**
      * SMTP Username
      *
      * @var string
      */
-    public $SMTPUser = 'putu.yogiswara@lecturer.umn.ac.id';
+    public $SMTPUser;
 
     /**
      * SMTP Password
@@ -68,7 +68,7 @@ class Email extends BaseConfig
      *
      * @var int
      */
-    public $SMTPPort = 465;
+    public $SMTPPort;
 
     /**
      * SMTP Timeout (in seconds)
@@ -89,7 +89,7 @@ class Email extends BaseConfig
      *
      * @var string
      */
-    public $SMTPCrypto = 'ssl';
+    public $SMTPCrypto;
 
     /**
      * Enable word-wrap
